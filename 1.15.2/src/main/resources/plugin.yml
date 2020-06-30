@@ -1,0 +1,19 @@
+name: SalemBlockade
+version: ${project.version}
+main: me.nbarudi.main.SalemBlockade
+authors: [nbarudi, ItzBungo]
+description: Recreating Town Of Salem in Minecraft
+website: bungo.ca
+commands:
+  game:
+    usage: /game <start/end>
+    description: Manage game systems.
+  vote:
+    usage: /vote <Player> <Server Key>
+    description: Vote up a player to be judged
+  visit1:
+    usage: /visit1 <Player1> <Player2> <Server Key>
+    description: Visit your target!
+  visit2:
+    usage: /visit1 <Player1> <Player2> <Server Key>
+    description: Visit your target!
